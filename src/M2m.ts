@@ -3,6 +3,7 @@
  */
 import {AnalysisModel} from "./T2m";
 
+
 export class DesignModel {
   constructor(analysisModel:AnalysisModel) {
 
