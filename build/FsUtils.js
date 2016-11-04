@@ -3,9 +3,9 @@
  */
 "use strict";
 const fs = require('fs');
-exports.readFilePromise = (filename, options = {}) => {
+exports.readFilePromise = (filename, encoding = 'utf8') => {
     return new Promise((resolve, reject) => {
-        fs.readFile(filename, options, (err, data) => {
+        fs.readFile(filename, encoding, (err, data) => {
             if (err)
                 reject(err);
             else
@@ -13,6 +13,16 @@ exports.readFilePromise = (filename, options = {}) => {
         });
     });
 }; // readFilePromise
+exports.parseFilePromise = (filename, parser) => {
+    return new Promise((resolve, reject) => {
+        fs.readFile(filename, 'utf8', (err, data) => {
+            if (err)
+                reject(err);
+            else
+                resolve(parser(data));
+        });
+    });
+}; // parseFilePromise
 exports.changeFileExt = (filename, newExt) => {
     let delimPos = (filename + '.').lastIndexOf('.');
     return filename.substr(0, delimPos) + newExt;

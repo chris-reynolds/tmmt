@@ -4,14 +4,18 @@
  */
 "use strict";
 const fs = require('fs');
-//import _ = require("lodash");
 const _ = require("lodash");
-class AnalysisModel {
-    constructor(requirementsPath) {
-        this.model = {};
+const FsUtils = require("./FsUtils");
+function loadAnalysisModel(modelName) {
+    return (new T2m).loadTextFile(modelName);
+}
+exports.loadAnalysisModel = loadAnalysisModel; // of loadAnalysisModel
+class T2m {
+    loadTextFile(requirementsPath) {
         //   todo : load requirements file
         //   todo : check for wildcard requirements path
         this.xmlParser = require('xml2js').Parser();
+        return FsUtils.parseFilePromise(requirementsPath, this.xmlParser);
     } // of constructor
     addFile(modelFileName) {
         // todo : load a simple requirement file
@@ -31,5 +35,5 @@ class AnalysisModel {
         }); // of parseCallback
     } // of addFile
 }
-exports.AnalysisModel = AnalysisModel;
+ // of class T2M
 //# sourceMappingURL=T2m.js.map

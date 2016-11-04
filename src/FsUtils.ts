@@ -4,9 +4,9 @@
 
 import fs = require('fs');
 
-export let readFilePromise = (filename:string, options:any = {}) => {
+export let readFilePromise = (filename:string, encoding:string = 'utf8') => {
     return new Promise((resolve, reject) => {
-        fs.readFile(filename, options, (err, data) => {
+        fs.readFile(filename, encoding, (err, data) => {
             if (err)
                 reject(err);
             else
@@ -15,6 +15,16 @@ export let readFilePromise = (filename:string, options:any = {}) => {
     });
 }  // readFilePromise
 
+export let parseFilePromise = (filename:string, parser:Function) => {
+    return new Promise((resolve, reject) => {
+        fs.readFile(filename, 'utf8', (err, data) => {
+            if (err)
+                reject(err);
+            else
+                resolve(parser(data));
+        });
+    });
+}  // parseFilePromise
 
 export let changeFileExt = (filename:string, newExt:string):string => {
     let delimPos = (filename+'.').lastIndexOf('.');

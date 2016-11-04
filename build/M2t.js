@@ -1,9 +1,18 @@
+/**
+ * Created by Chris on 18/10/2016.
+ */
+//import {DesignModel} from "./M2m";
 "use strict";
+function M2tPromise(designModel, targetDirectory) {
+    return;
+}
+exports.M2tPromise = M2tPromise;
+M2tPromise;
 class M2t {
     constructor(designModel, targetDirectory) {
     } // of constructor
 }
-exports.M2t = M2t;
+ // of class Generator
 class OutputFile {
     constructor(fileName) {
     } // of constructor

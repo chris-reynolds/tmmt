@@ -1,14 +1,19 @@
 /**
  * Created by Chris on 18/10/2016.
  */
-import {DesignModel} from "./M2m";
+//import {DesignModel} from "./M2m";
 
-export class M2t {
-    constructor(designModel:DesignModel,targetDirectory:string) {
+export function M2tPromise(designModel:any,targetDirectory:string):Promise<any> {
+  return
+
+} M2tPromise
+
+class M2t {
+    constructor(designModel:any,targetDirectory:string) {
 
     }  // of constructor
 
-}
+}  // of class Generator
 
 class OutputFile {
     constructor(fileName:string) {

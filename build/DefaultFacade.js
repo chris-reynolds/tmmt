@@ -6,7 +6,7 @@ class DefaultFacade {
     constructor() {
     } // of constructor
     /**
-     * This has the responsibility of walking down an object tree, placing a proxy object infront of each
+     * This has the responsibility of walking down an object tree, placing a proxy object in front of each object
      * @param targetObj  the is the sourceObject Tree
      * @param aProxy
      * @returns {Object}

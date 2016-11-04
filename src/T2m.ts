@@ -3,17 +3,22 @@
  * This has the responsibility of taking a structured text statement of requirements and outputting a model
  */
 
-import fs = require('fs');
-//import _ = require("lodash");
+import * as fs  from 'fs';
 import * as _ from "lodash";
+import * as FsUtils from "./FsUtils";
 
-export class AnalysisModel {
+export function loadAnalysisModel(modelName:string):Promise<string> {
+  return (new T2m).loadTextFile(modelName);
+} // of loadAnalysisModel
+
+class T2m {
    private xmlParser : any;  // todo xml2js typings file
-   model : any = {};
-   constructor( requirementsPath:string) {
+   private model : any;
+   loadTextFile( requirementsPath:string):Promise<string> {
    //   todo : load requirements file
    //   todo : check for wildcard requirements path
        this.xmlParser = require('xml2js').Parser();
+       return FsUtils.parseFilePromise(requirementsPath,this.xmlParser);
    } // of constructor
 
    addFile(modelFileName:string) {
@@ -34,4 +39,4 @@ export class AnalysisModel {
        }); // of parseCallback
     } // of addFile
 
-}
+} // of class T2M
