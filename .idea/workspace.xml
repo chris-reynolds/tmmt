@@ -1,31 +1,375 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="faa34a7a-d415-4632-af08-1ee7611fe5b2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmmtMain.config.json" />
+    <list default="true" id="faa34a7a-d415-4632-af08-1ee7611fe5b2" name="Default" comment="Restarting after summer layoff&#10;new driver.ts&#10;new externalrefs.ts&#10;Added xml parser reference">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/driver.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/externalRefs.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testdata/ddl_types.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testdata/jobUniversePIM.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typings/xml2js.d.ts" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/DefaultFacade.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/DefaultFacade.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/DefaultSheet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/DefaultSheet.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/FsUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/FsUtils.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/M2m.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/M2m.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/M2t.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/M2t.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/T2m.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/T2m.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Template.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Template.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Utils.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmmtMain.config.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmmtMain.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmmtMain.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/.bin/handlebars" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/.bin/handlebars.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/.bin/uglifyjs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/.bin/uglifyjs.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/align-text/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/align-text/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/align-text/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/align-text/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/amdefine/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/amdefine/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/amdefine/amdefine.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/amdefine/intercept.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/amdefine/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/async/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/async/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/async/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/async/dist/async.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/async/dist/async.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/async/lib/async.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/async/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/camelcase/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/camelcase/license" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/camelcase/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/camelcase/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/center-align/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/center-align/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/center-align/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/center-align/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/center-align/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/cliui/.coveralls.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/cliui/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/cliui/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/cliui/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/cliui/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/cliui/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/cliui/node_modules/wordwrap/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/cliui/node_modules/wordwrap/README.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/cliui/node_modules/wordwrap/example/center.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/cliui/node_modules/wordwrap/example/meat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/cliui/node_modules/wordwrap/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/cliui/node_modules/wordwrap/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/cliui/node_modules/wordwrap/test/break.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/cliui/node_modules/wordwrap/test/idleness.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/cliui/node_modules/wordwrap/test/wrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/cliui/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/cliui/test/cliui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/decamelize/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/decamelize/license" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/decamelize/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/decamelize/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/.gitmodules" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/.istanbul.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/FAQ.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/README.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/bin/handlebars" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/amd/handlebars.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/amd/handlebars.runtime.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/amd/handlebars/base.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/amd/handlebars/compiler/ast.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/amd/handlebars/compiler/base.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/amd/handlebars/compiler/code-gen.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/amd/handlebars/compiler/compiler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/amd/handlebars/compiler/helpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/amd/handlebars/compiler/javascript-compiler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/amd/handlebars/compiler/parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/amd/handlebars/compiler/printer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/amd/handlebars/compiler/visitor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/amd/handlebars/compiler/whitespace-control.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/amd/handlebars/decorators.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/amd/handlebars/decorators/inline.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/amd/handlebars/exception.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/amd/handlebars/helpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/amd/handlebars/helpers/block-helper-missing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/amd/handlebars/helpers/each.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/amd/handlebars/helpers/helper-missing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/amd/handlebars/helpers/if.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/amd/handlebars/helpers/log.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/amd/handlebars/helpers/lookup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/amd/handlebars/helpers/with.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/amd/handlebars/logger.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/amd/handlebars/no-conflict.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/amd/handlebars/runtime.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/amd/handlebars/safe-string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/amd/handlebars/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/amd/precompiler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/cjs/handlebars.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/cjs/handlebars.runtime.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/cjs/handlebars/base.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/cjs/handlebars/compiler/ast.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/cjs/handlebars/compiler/helpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/cjs/handlebars/compiler/printer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/cjs/handlebars/compiler/visitor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/cjs/handlebars/compiler/whitespace-control.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/cjs/handlebars/decorators.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/cjs/handlebars/decorators/inline.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/cjs/handlebars/exception.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/cjs/handlebars/helpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/cjs/handlebars/helpers/block-helper-missing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/cjs/handlebars/helpers/each.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/cjs/handlebars/helpers/helper-missing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/cjs/handlebars/helpers/if.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/cjs/handlebars/helpers/log.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/cjs/handlebars/helpers/lookup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/cjs/handlebars/helpers/with.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/cjs/handlebars/logger.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/cjs/handlebars/no-conflict.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/cjs/handlebars/runtime.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/cjs/handlebars/safe-string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/cjs/handlebars/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/cjs/precompiler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/handlebars.amd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/handlebars.amd.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/handlebars.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/handlebars.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/handlebars.runtime.amd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/handlebars.runtime.amd.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/handlebars.runtime.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/dist/handlebars.runtime.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/docs/compiler-api.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/docs/decorators-api.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/lib/handlebars.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/lib/handlebars.runtime.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/lib/handlebars/base.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/lib/handlebars/compiler/ast.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/lib/handlebars/compiler/base.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/lib/handlebars/compiler/code-gen.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/lib/handlebars/compiler/compiler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/lib/handlebars/compiler/helpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/lib/handlebars/compiler/javascript-compiler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/lib/handlebars/compiler/parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/lib/handlebars/compiler/printer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/lib/handlebars/compiler/visitor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/lib/handlebars/compiler/whitespace-control.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/lib/handlebars/decorators.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/lib/handlebars/decorators/inline.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/lib/handlebars/exception.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/lib/handlebars/helpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/lib/handlebars/helpers/block-helper-missing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/lib/handlebars/helpers/each.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/lib/handlebars/helpers/helper-missing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/lib/handlebars/helpers/if.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/lib/handlebars/helpers/log.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/lib/handlebars/helpers/lookup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/lib/handlebars/helpers/with.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/lib/handlebars/logger.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/lib/handlebars/no-conflict.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/lib/handlebars/runtime.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/lib/handlebars/safe-string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/lib/handlebars/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/lib/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/lib/precompiler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/print-script" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/release-notes.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/handlebars/runtime.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/is-buffer/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/is-buffer/.zuul.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/is-buffer/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/is-buffer/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/is-buffer/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/is-buffer/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/is-buffer/test/basic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/kind-of/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/kind-of/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/kind-of/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/kind-of/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/lazy-cache/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/lazy-cache/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/lazy-cache/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/lazy-cache/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/longest/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/longest/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/longest/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/longest/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/minimist/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/minimist/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/minimist/example/parse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/minimist/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/minimist/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/minimist/readme.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/minimist/test/bool.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/minimist/test/dash.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/minimist/test/default_bool.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/minimist/test/dotted.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/minimist/test/long.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/minimist/test/num.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/minimist/test/parse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/minimist/test/parse_modified.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/minimist/test/short.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/minimist/test/whitespace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/optimist/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/optimist/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/optimist/example/bool.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/optimist/example/boolean_double.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/optimist/example/boolean_single.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/optimist/example/default_hash.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/optimist/example/default_singles.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/optimist/example/divide.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/optimist/example/line_count.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/optimist/example/line_count_options.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/optimist/example/line_count_wrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/optimist/example/nonopt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/optimist/example/reflect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/optimist/example/short.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/optimist/example/string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/optimist/example/usage-options.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/optimist/example/xup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/optimist/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/optimist/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/optimist/readme.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/optimist/test/_.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/optimist/test/_/argv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/optimist/test/_/bin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/optimist/test/dash.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/optimist/test/parse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/optimist/test/parse_modified.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/optimist/test/short.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/optimist/test/usage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/optimist/test/whitespace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/repeat-string/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/repeat-string/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/repeat-string/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/repeat-string/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/right-align/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/right-align/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/right-align/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/right-align/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/source-map/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/source-map/build/assert-shim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/source-map/build/mini-require.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/source-map/build/prefix-source-map.jsm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/source-map/build/prefix-utils.jsm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/source-map/build/suffix-browser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/source-map/build/suffix-source-map.jsm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/source-map/build/suffix-utils.jsm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/source-map/build/test-prefix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/source-map/build/test-suffix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/source-map/lib/source-map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/source-map/lib/source-map/array-set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/source-map/lib/source-map/base64-vlq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/source-map/lib/source-map/base64.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/source-map/lib/source-map/binary-search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/source-map/lib/source-map/mapping-list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/source-map/lib/source-map/quick-sort.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/source-map/lib/source-map/source-map-consumer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/source-map/lib/source-map/source-map-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/source-map/lib/source-map/source-node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/source-map/lib/source-map/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/source-map/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/bin/extract-props.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/bin/uglifyjs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/lib/ast.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/lib/compress.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/lib/mozilla-ast.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/lib/output.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/lib/parse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/lib/propmangle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/lib/scope.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/lib/sourcemap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/lib/transform.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/lib/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/node_modules/async/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/node_modules/async/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/node_modules/async/component.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/node_modules/async/lib/async.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/node_modules/async/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/node_modules/source-map/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/node_modules/source-map/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/node_modules/source-map/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/node_modules/source-map/dist/source-map.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/node_modules/source-map/dist/source-map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/node_modules/source-map/dist/source-map.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/node_modules/source-map/dist/source-map.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/node_modules/source-map/lib/array-set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/node_modules/source-map/lib/base64-vlq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/node_modules/source-map/lib/base64.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/node_modules/source-map/lib/binary-search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/node_modules/source-map/lib/mapping-list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/node_modules/source-map/lib/quick-sort.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/node_modules/source-map/lib/source-map-consumer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/node_modules/source-map/lib/source-map-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/node_modules/source-map/lib/source-node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/node_modules/source-map/lib/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/node_modules/source-map/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/node_modules/source-map/source-map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/tools/domprops.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/tools/exports.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/tools/node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-js/tools/props.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-to-browserify/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-to-browserify/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-to-browserify/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-to-browserify/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-to-browserify/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-to-browserify/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/uglify-to-browserify/test/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/window-size/LICENSE-MIT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/window-size/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/window-size/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/window-size/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/wordwrap/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/wordwrap/README.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/wordwrap/example/center.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/wordwrap/example/meat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/wordwrap/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/wordwrap/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/wordwrap/test/break.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/wordwrap/test/idleness.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/wordwrap/test/wrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/yargs/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/yargs/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/yargs/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/yargs/completion.sh.hbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/yargs/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/yargs/lib/completion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/yargs/lib/parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/yargs/lib/usage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/yargs/lib/validation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/node_modules/yargs/package.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/typescript-compiler.xml" afterPath="$PROJECT_DIR$/.idea/typescript-compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/DefaultFacade.js" afterPath="$PROJECT_DIR$/build/DefaultFacade.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/FsUtils.js" afterPath="$PROJECT_DIR$/build/FsUtils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/FsUtils.js.map" afterPath="$PROJECT_DIR$/build/FsUtils.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/M2m.js" afterPath="$PROJECT_DIR$/build/M2m.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/M2m.js.map" afterPath="$PROJECT_DIR$/build/M2m.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/M2t.js" afterPath="$PROJECT_DIR$/build/M2t.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/M2t.js.map" afterPath="$PROJECT_DIR$/build/M2t.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/T2m.js" afterPath="$PROJECT_DIR$/build/T2m.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/T2m.js.map" afterPath="$PROJECT_DIR$/build/T2m.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/Utils.js" afterPath="$PROJECT_DIR$/build/Utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/Utils.js.map" afterPath="$PROJECT_DIR$/build/Utils.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmmtMain.js" afterPath="$PROJECT_DIR$/build/tmmtMain.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmmtMain.js.map" afterPath="$PROJECT_DIR$/build/tmmtMain.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DefaultFacade.ts" afterPath="$PROJECT_DIR$/src/DefaultFacade.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FsUtils.ts" afterPath="$PROJECT_DIR$/src/FsUtils.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/M2m.ts" afterPath="$PROJECT_DIR$/src/M2m.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/M2t.ts" afterPath="$PROJECT_DIR$/src/M2t.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/T2m.ts" afterPath="$PROJECT_DIR$/src/T2m.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Utils.ts" afterPath="$PROJECT_DIR$/src/Utils.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/package.json" afterPath="$PROJECT_DIR$/src/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template.ts" afterPath="$PROJECT_DIR$/src/Template.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tmmtMain.ts" afterPath="$PROJECT_DIR$/src/tmmtMain.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tsconfig.json" afterPath="$PROJECT_DIR$/src/tsconfig.json" />
     </list>
     <ignored path="tmmt.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,98 +392,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="T2m.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/T2m.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="11" selection-end-column="25" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#152#178#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="M2m.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/M2m.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="M2t.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/M2t.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Template.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Template.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tmmtMain.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tmmtMain.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tmmtMain.config.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/tmmtMain.config.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FsUtils.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FsUtils.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Utils.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Utils.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="68">
+              <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -157,6 +414,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Chris Reynolds &lt;chrisr@instantobjects.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -164,10 +426,8 @@
       <list>
         <option value="$PROJECT_DIR$/tmmtMain.ts" />
         <option value="$PROJECT_DIR$/src/M2mDriver.ts" />
-        <option value="$PROJECT_DIR$/src/tsconfig.json" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/typings/handlebars.d.ts" />
-        <option value="$PROJECT_DIR$/src/Template.ts" />
         <option value="$PROJECT_DIR$/src/DefaultSheet.ts" />
         <option value="$PROJECT_DIR$/src/node_modules/es6-promisify/dist/wait4.js" />
         <option value="$PROJECT_DIR$/src/fred.js" />
@@ -175,25 +435,43 @@
         <option value="$PROJECT_DIR$/src/DefaultFacade.ts" />
         <option value="$PROJECT_DIR$/src/Utils.js" />
         <option value="$PROJECT_DIR$/src/Utils.ts" />
-        <option value="$PROJECT_DIR$/src/FsUtils.ts" />
-        <option value="$PROJECT_DIR$/src/T2m.ts" />
-        <option value="$PROJECT_DIR$/src/M2m.ts" />
-        <option value="$PROJECT_DIR$/src/M2t.ts" />
         <option value="$PROJECT_DIR$/build/tmmtMain.config.json" />
+        <option value="$PROJECT_DIR$/src/T2m.ts" />
+        <option value="$PROJECT_DIR$/build/FsUtils.js" />
+        <option value="$PROJECT_DIR$/src/M2t.ts" />
+        <option value="$PROJECT_DIR$/src/Template.ts" />
+        <option value="$PROJECT_DIR$/src/externalRefs.ts" />
+        <option value="$PROJECT_DIR$/src/tsconfig.json" />
+        <option value="$PROJECT_DIR$/build/tmmtMain.js" />
+        <option value="$PROJECT_DIR$/build/M2m.js" />
+        <option value="$PROJECT_DIR$/tsd-debug.log" />
         <option value="$PROJECT_DIR$/src/tmmtMain.ts" />
+        <option value="$PROJECT_DIR$/src/FsUtils.ts" />
+        <option value="$PROJECT_DIR$/testdata/fred.xml" />
+        <option value="$PROJECT_DIR$/testdata/xfred.xml" />
+        <option value="$PROJECT_DIR$/src/M2m.ts" />
+        <option value="$PROJECT_DIR$/src/driver.ts" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/build/node_modules" />
-    <handled-path value="$PROJECT_DIR$/src/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+    <handled-path value="$PROJECT_DIR$/xxxnode_modules/cliui/node_modules" />
+    <handled-path value="$PROJECT_DIR$/xxxnode_modules/uglify-js/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -201,16 +479,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
@@ -226,11 +495,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches">
-        <subPane />
-      </pane>
       <pane id="Scope">
-        <subPane subId="Problems" />
         <subPane subId="Project Files">
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
@@ -242,28 +507,69 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="tmmt">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="typings">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="tmmt">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="testdata">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="tmmt">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
-        <subPane subId="Tests" />
       </pane>
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
+      <pane id="Scratches" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="prop_add_unversioned_files" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptPreferStrict" value="true" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="$USER_HOME$/AppData/Roaming/npm/node_modules/grunt-cli" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build/tmmtMain.js" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="add_unversioned_files" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -273,6 +579,18 @@
       <recent name="C:\projects\book\tmmt\src\" />
       <recent name="C:\projects\book\tmmt\typings" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Node.js.SimplyNode">
     <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote">
@@ -291,7 +609,20 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
       <node-interpreter value="project" />
       <envs />
@@ -370,7 +701,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -400,10 +731,27 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <configuration default="false" name="SimplyNode" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="build/tmmtMain.js" working-dir="$PROJECT_DIR$">
-      <profiling v8-profiler-path="" />
-      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSProfilingRunConfigurationExtension">
-        <profiling v8-profiler-path="" />
+    <configuration default="false" name="SimplyNode" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="tmmtMain.js" node-parameters="--harmony-async-await" working-dir="$PROJECT_DIR$/build">
+      <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
+        <option name="envVars">
+          <list />
+        </option>
+        <option name="extraHosts">
+          <list />
+        </option>
+        <option name="links">
+          <list />
+        </option>
+        <option name="networkDisabled" value="false" />
+        <option name="networkMode" value="bridge" />
+        <option name="portBindings">
+          <list />
+        </option>
+        <option name="publishAllPorts" value="false" />
+        <option name="version" value="1" />
+        <option name="volumeBindings">
+          <list />
+        </option>
       </EXTENSION>
       <method>
         <option name="TypeScript.Before.Run" enabled="true" FAIL_ON_ERROR="true" />
@@ -431,12 +779,25 @@
       <workItem from="1476760757925" duration="11400000" />
       <workItem from="1477011061636" duration="943000" />
       <workItem from="1477024484564" duration="9601000" />
-      <workItem from="1478129080233" duration="21647000" />
+      <workItem from="1478129080233" duration="22166000" />
+      <workItem from="1478372844978" duration="9693000" />
+      <workItem from="1478470501278" duration="4693000" />
+      <workItem from="1478816977039" duration="5461000" />
+      <workItem from="1479158136802" duration="4470000" />
+      <workItem from="1479169506051" duration="6692000" />
+      <workItem from="1481231105393" duration="550000" />
+      <workItem from="1481231690388" duration="15402000" />
+      <workItem from="1488764278516" duration="634000" />
+      <workItem from="1488875863716" duration="72000" />
+      <workItem from="1488875995161" duration="355000" />
+      <workItem from="1488930542968" duration="34000" />
+      <workItem from="1488930634855" duration="605000" />
+      <workItem from="1495852146683" duration="2385000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53094000" />
+    <option name="totallyTimeSpent" value="104659000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -448,25 +809,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4614561" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37671232" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.49789253" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5021075" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993576" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27944326" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -489,6 +851,14 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/node_modules/karma/config.tpl.js" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
@@ -500,119 +870,35 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Restarting after summer layoff&#10;new driver.ts&#10;new externalrefs.ts&#10;Added xml parser reference" />
+    <option name="LAST_COMMIT_MESSAGE" value="Restarting after summer layoff&#10;new driver.ts&#10;new externalrefs.ts&#10;Added xml parser reference" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="30" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Template.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DefaultFacade.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/typings/node.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/T2m.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#152#178#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/es6-promisify/dist/promisify.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/M2m.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/M2t.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DefaultFacade.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typings/node.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tmmtMain.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -620,59 +906,53 @@
     <entry file="file://$PROJECT_DIR$/src/T2m.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#152#178#0" expanded="true" />
-          </folding>
+          <caret line="2" column="51" lean-forward="false" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/M2m.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#89#117#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/M2t.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Template.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tmmtMain.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -680,211 +960,265 @@
     <entry file="file://$PROJECT_DIR$/src/T2m.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#152#178#0" expanded="true" />
-          </folding>
+          <caret line="2" column="51" lean-forward="false" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/M2m.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#89#117#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/M2t.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Template.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/M2mDriver.ts" />
-    <entry file="file://$PROJECT_DIR$/src/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/typings/index.d.ts" />
     <entry file="file://$PROJECT_DIR$/src/typings/modules/lodash/index.d.ts" />
     <entry file="file://$PROJECT_DIR$/src/typings/modules/lodash/typings.json" />
-    <entry file="file://$PROJECT_DIR$/typings/lodash.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-263684">
-          <caret line="3019" column="20" selection-start-line="3019" selection-start-column="20" selection-end-line="3019" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typings/handlebars.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fred.js" />
     <entry file="file://$PROJECT_DIR$/src/fred.txt" />
     <entry file="file://$PROJECT_DIR$/src/wait4.js" />
-    <entry file="file://$PROJECT_DIR$/src/node_modules/es6-promisify/dist/wait4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typings/node.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/es6-promisify/dist/promisify.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DefaultFacade.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FsUtils.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/es6-promisify/dist/wait4.js" />
+    <entry file="file://$PROJECT_DIR$/src/node_modules/es6-promisify/dist/promisify.js" />
+    <entry file="file://$PROJECT_DIR$/src/Utils.js" />
     <entry file="file://$PROJECT_DIR$/build/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Utils.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding />
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/T2m.ts">
+    <entry file="file://$PROJECT_DIR$/build/FsUtils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#152#178#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/M2m.ts">
+    <entry file="file://$PROJECT_DIR$/typings/handlebars.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/M2t.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/tmmtMain.config.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typings/node.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/T2m.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="40" column="24" lean-forward="false" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typings/lodash.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DefaultFacade.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="15" lean-forward="false" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/M2t.ts">
+    <entry file="file://$PROJECT_DIR$/build/tmmtMain.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="289">
+          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding>
+            <marker date="1495854774375" expanded="true" signature="14:170" ph="/** Created by Chris on 18/10/2016. ...*/" />
+            <marker date="1495854774375" expanded="true" signature="312:547" ph="{...}" />
+            <marker date="1495854774375" expanded="true" signature="422:469" ph="{...}" />
+            <marker date="1495854774375" expanded="true" signature="484:543" ph="{...}" />
+            <marker date="1495854774375" expanded="true" signature="552:611" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsd-debug.log" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="340">
+            <caret line="20" column="91" lean-forward="false" selection-start-line="20" selection-start-column="91" selection-end-line="20" selection-end-column="91" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tmmtMain.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#94#130#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FsUtils.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="89" column="20" lean-forward="false" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/M2m.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding>
+            <marker date="1495854774331" expanded="true" signature="1502:1549" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/jobUniversePIM.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/M2m.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#89#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/externalRefs.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/driver.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#43#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/ddl_types.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/xfred.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typings/xml2js.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
           <folding />
         </state>
       </provider>
