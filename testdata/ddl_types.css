@@ -1,0 +1,123 @@
+#Boolean {
+  widget: "TDBCheckbox";
+  variableType: "Boolean";
+  sqlType: "smallint";
+  }
+#Currency  {
+  isa: "Float";
+  decimals: 2;
+  }
+#Date  {
+  widget: "TDatePicker";
+  variableType: "TDate";
+  stuff: "(A variable called stuff)";
+  sqlType: '{{blah stuff}}';
+  }
+#Datetime  {
+  widget: "TDatetimePicker";
+  variableType: "TDateTime";
+  stuff2: "(A variable called stuff2)";
+  sqlType: '{{blah stuff2}}';
+  }
+#Description  {
+  @extend #String;
+  length : 60;
+  }
+#Descriptor  {
+  @extend  #String;
+  length : 50;
+  }
+#Email  {
+  @extend #String;
+  length : 60;
+  }
+#Filename  {
+  @extend #String;
+  length : 100;
+  }
+#Float  {
+  widget: "TDBEdit";
+  variableType: "Extended";
+  sqlType: "Float";
+  }
+#HTML  {
+  @extend #String;
+  length : 250;
+  widget: "TRichText";
+  variableType: "String";
+  }
+#Image  {
+  widget: "TPicture";
+  variableType: "Image";
+  sqlType: "longBlob";
+  }
+#Integer  {
+  widget: "TDBEdit";
+  variableType: "Integer";
+  sqlType: "INT";
+  }
+#Key  {
+  widget: "TDBCombobox";
+  variableType: "integer";
+  sqlType: "INT";
+  }
+#Memo  {
+  widget: "TextArea";
+  variableType: "String";
+  sqlType: "lonttext";
+  }
+#Password  {
+  @extend #String;
+  length : 40;
+  widget: "TPasswordEdit";
+  }
+#Percent  {
+  widget: "TDBNumEdit";
+  variableType: "Extended";
+  sqlType: "Float";
+  }
+#PhoneNumber  {
+  @extend #String;
+  length : 30;
+  }
+#RichText  {
+  widget: "TDBRichText";
+  variableType: "String";
+  sqlType: "Text";
+  }
+#Rule  {
+  @extend #String;
+  length: 250;
+  }
+#String  {
+  widget: "TDBEdit";
+  variableType: "String";
+  length: 30;  /* default length for strings */
+  sqlType: "varchar({{length}})";
+  }
+#Text  {
+  @extend #String;
+  length: 250;
+  }
+#TextList  {
+  widget: "TListBox";
+  @extend #String;
+  length: 250;
+  }
+#Time  {
+  widget: "TDatetimePicker";
+  variableType: "TDateTime";
+  sqlType: "Datetime";
+  }
+#URL  {
+  @extend #String;
+  length: 150;
+  }
+#Video  {
+  widget: "TVideo";
+  variableType: "Video";
+  sqlType: "Blob";
+  }
+#YesNo  {
+  isa: "#Boolean";
+  }
