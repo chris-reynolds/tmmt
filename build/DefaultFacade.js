@@ -1,7 +1,8 @@
+"use strict";
 /**
  * Created by Chris on 18/10/2016.
  */
-"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 class DefaultFacade {
     constructor() {
     } // of constructor
@@ -27,6 +28,6 @@ class DefaultFacade {
         }
         return new Proxy(targetObj, aProxy);
     } // proxyWrapper
-}
-exports.DefaultFacade = DefaultFacade; // of class DefaultFacade
+} // of class DefaultFacade
+exports.DefaultFacade = DefaultFacade;
 //# sourceMappingURL=DefaultFacade.js.map

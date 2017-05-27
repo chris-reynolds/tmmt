@@ -1,4 +1,8 @@
-src/node_modules
-build/node_modules
+
+/build/
+/node_modules/
+/src/node_modules/
 testOutput
 
+/testdata/xfred.xml
+/xxxnode_modules/

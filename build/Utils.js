@@ -1,8 +1,9 @@
+"use strict";
 /**
  * Created by Chris on 3/11/2016.
  */
 //import Error from 'node.d.ts';
-"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 exports.currentScriptName = () => {
     let fakeError = new Error('zzz');
     let fakeErrorLines = fakeError.stack.split('\n');

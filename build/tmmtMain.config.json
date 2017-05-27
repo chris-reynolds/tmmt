@@ -1,5 +1,6 @@
 {
   "modelName" : "JobUniverse",
+  "sourceDir" : "..\\testData",
   "targetDir" : "..\\outputDir",
 
   "end" : ""

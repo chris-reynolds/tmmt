@@ -1,23 +1,43 @@
+"use strict";
 /**
  * Created by Chris on 18/10/2016.
  * This has the responsibility of taking a structured text statement of requirements and outputting a model
  */
-"use strict";
-const fs = require('fs');
+Object.defineProperty(exports, "__esModule", { value: true });
+const fs = require("fs");
 const _ = require("lodash");
 const FsUtils = require("./FsUtils");
 function loadAnalysisModel(modelName) {
-    return (new T2m).loadTextFile(modelName);
-}
-exports.loadAnalysisModel = loadAnalysisModel; // of loadAnalysisModel
+    return FsUtils.readFilePromise(modelName).then(parseMaximFilePromise);
+} // of loadAnalysisModel
+exports.loadAnalysisModel = loadAnalysisModel;
+function parseMaximFilePromise(xmlSource) {
+    let xmlParser = require('xml2js').Parser();
+    return new Promise((resolve, reject) => {
+        xmlParser.parseString(xmlSource, function (err, data) {
+            if (err)
+                reject('XML ERROR:' + err);
+            else {
+                let result = {};
+                result.packages = data.Model.Package;
+                result.myModel = result.packages.filter(function (item) {
+                    return (item.Stereotype == 'Product');
+                })[0];
+                result.myModel.class = result.myModel.Classes[0].Class;
+                result.model = _.merge(result.model, result.myModel);
+                resolve(result);
+            }
+        }); // of parseCallback
+    }); // of new promise
+} // of parseMaximFilePromise
 class T2m {
     loadTextFile(requirementsPath) {
         //   todo : load requirements file
         //   todo : check for wildcard requirements path
         this.xmlParser = require('xml2js').Parser();
-        return FsUtils.parseFilePromise(requirementsPath, this.xmlParser);
+        return FsUtils.readFilePromise(requirementsPath);
     } // of constructor
-    addFile(modelFileName) {
+    addMaximFile(modelFileName) {
         // todo : load a simple requirement file
         // todo : check for nested requirements file
         let maximXMLSource = fs.readFileSync(modelFileName, 'utf8');
@@ -34,6 +54,5 @@ class T2m {
             }
         }); // of parseCallback
     } // of addFile
-}
- // of class T2M
+} // of class T2M
 //# sourceMappingURL=T2m.js.map
