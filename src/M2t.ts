@@ -3,8 +3,13 @@
  */
 //import {DesignModel} from "./M2m";
 
-export function M2tPromise(designModel:any,targetDirectory:string):Promise<any> {
-  return
+export function M2tPromise(sourceMask:string,targetDirectory:string):Promise<any> {
+    // todo : for each xml in the source directory, load and merge into model.
+    // todo : for each css in the source directory, load and merge css into proxy
+    // todo : for each template in the source directory, create output stream
+    // todo : for each output stream, break into output files
+    // todo : for each output file, extract existing customcode markers,
+    return Promise.resolve('todo: M2tPromise');
 
 } M2tPromise
 
