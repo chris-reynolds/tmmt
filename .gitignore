@@ -6,3 +6,5 @@ testOutput
 
 /testdata/xfred.xml
 /xxxnode_modules/
+
+*.zip
